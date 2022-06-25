@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="properties" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainViewController">
+    <children>
+      <Label layoutX="38.0" layoutY="95.0" text="Number Of Threads:" textFill="WHITE" />
+      <Label layoutX="38.0" layoutY="148.0" text="Generate Algorithm:" textFill="WHITE" />
+      <Label layoutX="38.0" layoutY="201.0" text="Solving Algorithm:" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="38.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Your Properties:" />
+
+      <ChoiceBox fx:id="generate" layoutX="183.0" layoutY="145.0" prefWidth="150.0">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="Empty Maze" />
+                <String fx:value="Simple Maze" />
+                <String fx:value="My Maze" />
+            </FXCollections>
+        </items>
+        </ChoiceBox>
+      <ChoiceBox fx:id="solve" layoutX="183.0" layoutY="198.0" prefWidth="150.0">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+            <String fx:value="Breadth First Search" />
+            <String fx:value="Depth First Search" />
+            <String fx:value="Best First Search" />
+            </FXCollections>
+        </items>
+    </ChoiceBox>
+      <Button fx:id="ok" layoutX="155.0" layoutY="250.0" mnemonicParsing="false" onAction="#saveConfigurations" text="OK" />
+      <TextField fx:id="threadsNum" layoutX="183.0" layoutY="91.0" prefHeight="26.0" prefWidth="55.0" />
+      <Label layoutX="37.0" layoutY="50.0" prefHeight="17.0" prefWidth="422.0" text="if you don't want a property to change, you can leave it empty" textFill="WHITE" />
+   </children>
+</AnchorPane>
