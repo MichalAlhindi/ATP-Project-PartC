@@ -511,3 +511,52 @@
 2022.06.25 19:13:07.467 INFO  Model.MyModel - Generate server started at port 5400, can except clients
 2022.06.25 19:13:07.474 INFO  Model.MyModel - Solver server started at port 5401, can except clients
 2022.06.25 19:13:13.373 ERROR Model.MyModel - maze sizes are invalid, min size of maze is 2x2
+2022.06.25 19:23:13.535 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.25 19:23:13.538 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.25 19:23:20.786 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5400
+2022.06.25 19:23:20.788 INFO  Model.MyModel - client ask to generate maze with size 10X10
+2022.06.26 13:26:13.810 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.26 13:26:13.814 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.26 13:26:32.954 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5400
+2022.06.26 13:26:32.958 INFO  Model.MyModel - client ask to generate maze with size 10X10
+2022.06.26 13:30:04.673 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.26 13:30:04.676 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.26 13:30:24.177 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5400
+2022.06.26 13:30:24.182 INFO  Model.MyModel - client ask to generate maze with size 10X10
+2022.06.26 13:30:35.347 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5400
+2022.06.26 13:30:35.348 INFO  Model.MyModel - client ask to generate maze with size 10X10
+2022.06.26 13:30:38.169 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.26 13:30:38.169 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@fe876e5
+2022.06.26 13:30:38.203 INFO  Model.MyModel - solution found, length of solution is 12
+2022.06.27 10:21:33.578 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.27 10:21:33.583 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.27 10:22:44.743 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.27 10:22:44.746 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.27 10:36:40.047 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.27 10:36:40.051 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.27 10:36:44.556 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5400
+2022.06.27 10:36:44.567 INFO  Model.MyModel - client ask to generate maze with size 10X10
+2022.06.27 10:36:59.536 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5400
+2022.06.27 10:36:59.536 INFO  Model.MyModel - client ask to generate maze with size 10X10
+2022.06.27 10:37:03.216 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.27 10:37:03.217 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@2116c05d
+2022.06.27 10:37:03.258 INFO  Model.MyModel - solution found, length of solution is 11
+2022.06.27 10:37:06.015 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.27 10:37:06.015 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@44d84311
+2022.06.27 10:37:06.037 INFO  Model.MyModel - solution found, length of solution is 10
+2022.06.27 10:37:08.010 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.27 10:37:08.011 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@2927a90d
+2022.06.27 10:37:08.032 INFO  Model.MyModel - solution found, length of solution is 10
+2022.06.27 10:37:13.564 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.27 10:37:13.565 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@29349e5e
+2022.06.27 10:37:13.595 INFO  Model.MyModel - solution found, length of solution is 10
+2022.06.27 10:37:13.772 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.27 10:37:13.772 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@3abbdd63
+2022.06.27 10:37:13.801 INFO  Model.MyModel - solution found, length of solution is 11
+2022.06.27 10:38:46.433 INFO  Model.MyModel - client connected to server - IP = LAPTOP-BGULAOR3/192.168.56.1, Port = 5401
+2022.06.27 10:38:46.434 INFO  Model.MyModel - client ask to solve maze with algorithm algorithms.search.BreadthFirstSearch@27df0a57
+2022.06.27 10:38:46.452 INFO  Model.MyModel - solution found, length of solution is 11
+2022.06.27 10:40:27.492 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.27 10:40:27.496 INFO  Model.MyModel - Solver server started at port 5401, can except clients
+2022.06.27 10:41:05.988 INFO  Model.MyModel - Generate server started at port 5400, can except clients
+2022.06.27 10:41:05.993 INFO  Model.MyModel - Solver server started at port 5401, can except clients
